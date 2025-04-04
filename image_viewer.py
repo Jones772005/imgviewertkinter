@@ -19,7 +19,7 @@ class ImageViewer:
         top_frame = tk.Frame(self.root, bg="#2E2E2E")
         top_frame.pack(side=tk.TOP, pady=10)
 
-        self.browse_btn = tk.Button(top_frame, text="📁 Browse Folder", command=self.browse_folder, bg="#444", fg="white")
+        self.browse_btn = tk.Button(top_frame, text="Browse", command=self.browse_folder, bg="#444", fg="white")
         self.browse_btn.pack()
 
         # Bottom Frame - Navigation Buttons
